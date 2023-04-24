@@ -1,0 +1,73 @@
+<!-- Start >> Sidebar  -->
+<nav class="sidebar">
+    <!-- Start >> Header Sidebar -->
+    <div class="sidebar-header text-muted text-center border-bottom">
+
+        <!-- Title Sidebar -->
+        <h5 class="fw-bold mt-2">{{title}}</h5>
+
+    </div>
+    <!-- End >> Header Sidebar -->
+
+    <!-- Content -->
+    <ul class="list-unstyled components">
+
+        <li class="list-group-item border-0" >
+            <a class="accordion-button collapsed" routerLinkActive="active">
+                <i class="bi bi-person-fill me-3"></i> Users
+            </a>
+        </li>
+
+		<li class="list-group-item border-0">
+            <div class="accordion accordion-flush" id="accordionproductos">
+                <div class="accordion-item">
+                    <div id="flush-headingOne">
+                        <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseproductos" aria-expanded="false" aria-controls="flush-collapseproductos">
+                            <i class="bi bi-box-fill me-3"></i> productos
+                        </button>
+                    </div>
+                    <div id="flush-collapseproductos" class="accordion-collapse collapse" aria-labelledby="flush-headingproductos"
+                        data-bs-parent="#accordionproductos">
+                        <div class="accordion-body">
+                            <ul class="list-unstyled" id="ngboostrap">
+                                <li>
+                                    <a href="javascript:void(0);" 
+                                        routerLinkActive="active">producto</a>
+                                </li>
+                                <!--CODEMONO: NO REMOVE THIS COMMENT (OPTION_productos)-->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <!--CODEMONO: NO REMOVE THIS COMMENT (MENU)-->
+
+
+		<!-- MUNU OPTION SAMPLE -->
+		<!--
+        <li class="list-group-item border-0">
+            <a class="accordion-button collapsed" routerLinkActive="active">
+                <i class="bi bi-1-square-fill me-3"></i> Page 1
+            </a>
+        </li>
+
+        <li class="list-group-item border-0">
+            <a class="accordion-button collapsed" routerLinkActive="active">
+                <i class="bi bi-2-square-fill me-3"></i> Page 2
+            </a>
+        </li>
+
+        <li class="list-group-item border-0">
+            <a class="accordion-button collapsed" routerLinkActive="active">
+                <i class="bi bi-3-square-fill me-3"></i> Page 3
+            </a>
+        </li>
+		-->
+
+    </ul>
+    <!-- End >> Content -->
+
+</nav>
+<!-- End >> Sidebar  -->

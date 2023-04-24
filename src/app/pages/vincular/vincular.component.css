@@ -1,0 +1,71 @@
+
+.alexa{
+    justify-content: center !important;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    background: #ffffff;
+    padding: 20px 25px;
+    border-radius: 15px;
+    border:0px;
+    box-shadow: 1px 1px 20px 3px #dfdfdf;
+    
+    
+}
+.alexa:hover{
+    background: #1997ff70;
+}
+
+
+.google{
+    justify-content: center !important;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    background: #ffffff;
+    padding: 20px 25px;
+    border-radius: 15px;
+    border:0px;
+    box-shadow: 1px 1px 20px 3px #dfdfdf;
+    
+    
+}
+.google:hover{
+    background: #1997ff70;
+}
+
+
+.cortana{
+    justify-content: center !important;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    background: #ffffff;
+    padding: 20px 25px;
+    border-radius: 15px;
+    border:0px;
+    box-shadow: 1px 1px 20px 3px #dfdfdf;
+    
+    
+}
+.cortana:hover{
+    background: #1997ff70;
+}
+
+
+.siri{
+    justify-content: center !important;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    background: #ffffff;
+    padding: 20px 25px;
+    border-radius: 15px;
+    border:0px;
+    box-shadow: 1px 1px 20px 3px #dfdfdf;
+    
+    
+}
+.siri:hover{
+    background: #1997ff70;
+}

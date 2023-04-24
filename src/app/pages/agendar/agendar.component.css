@@ -1,0 +1,63 @@
+.medical{
+    align-items: center;
+    font-size: 40px;
+    color:#ffffff;
+    background: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+.card-principal {
+    display: flex;
+    justify-content: center !important;
+    width: 370px;
+    height: 280px;
+    margin: 0 auto;
+    background: #ffff;
+    border-radius: 30px;
+    border: none;
+    object-fit: cover;
+    box-shadow: 1px 1px 20px 3px #dfdfdf;
+
+}
+
+
+.imagen {
+    display: flex;
+    justify-content: start;
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    border-radius: 12px;
+}
+
+
+.star {
+    font-size: 30px;
+    background: none;
+    color: #fdd90c;
+    width: 30px;
+    height:auto;
+    object-fit: cover;
+    
+    
+}
+
+
+.btn-primary {
+    
+    background-color: #06c2e4;
+    color: #ffffff;
+    border: none;
+    font-family:'readex pro';
+    font-size: 15px;
+   
+
+   
+    
+}
+.btn-primary:hover {
+    background-color: #05a0bb;
+
+}

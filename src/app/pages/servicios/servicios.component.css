@@ -1,0 +1,93 @@
+
+
+.recordatorios {
+    font-size: 60px;
+    color:#ff9719;
+    background: #ffffff;
+    padding: 20px 45px;
+    border-radius: 15px;
+    border:0px;
+    box-shadow: 1px 1px 20px 3px #dfdfdf;
+}.recordatorios:hover{
+    background: #ff971970;
+}
+
+
+
+.vacunas {
+    font-size: 60px;
+    color: #1aaf6a;
+    background: #ffffff;
+    padding: 20px 45px;
+    border-radius: 15px;
+    border:0px;
+    box-shadow: 1px 1px 20px 3px #dfdfdf;
+}
+.vacunas:hover{
+    background: #19875475;
+}
+
+
+
+.medicamentos {
+    font-size: 60px;
+    color: #0d6efd;
+    background: #ffffff;
+    padding: 20px 45px;
+    cursor:pointer;
+    border-radius: 15px;
+    border:0px;
+    box-shadow: 1px 1px 20px 3px #dfdfdf;    
+}
+.medicamentos:hover{
+    background: #0d6dfd69;
+}
+
+
+
+.doctores {
+    font-size: 60px;
+    color: #0dcaf0;
+    background: #ffffff;
+    padding: 20px 45px;
+    border-radius: 15px;
+    border:0px;
+    box-shadow: 1px 1px 20px 3px #dfdfdf;
+}
+.doctores:hover{
+    background: #0dcaf062;
+}
+
+
+
+.exámenes{
+    font-size: 60px;
+    color: #e45eff;
+    background: #ffffff;
+    padding: 20px 45px;
+    border-radius: 15px;
+    border:0px;
+    box-shadow: 1px 1px 20px 3px #dfdfdf;
+    
+}
+.exámenes:hover{
+    background-color: #e45eff67;
+}
+
+
+.visitas{
+    font-size: 60px;
+    color: #ff645e;
+    background: #ffffff;
+    padding: 20px 45px;
+    border-radius: 15px;
+    border:0px;
+    box-shadow: 1px 1px 20px 3px #dfdfdf;
+    
+}
+.visitas:hover{
+    background-color: #ff635e5e;
+}
+
+
+ 
