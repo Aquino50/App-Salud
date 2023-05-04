@@ -9,7 +9,9 @@ import { LayoutLandingComponent } from './layout/layout-landing/layout-landing.c
 import { FooterModule } from "./components/footer/footer.module";
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 
-import 'animate.css'
+import 'animate.css';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment'
 
 
 @NgModule({
@@ -26,7 +28,13 @@ import 'animate.css'
         FormsModule,
         AppRoutingModule,
         FormsModule,
-        FooterModule, 
+        FooterModule,
+        ServiceWorkerModule.register('ngsw-worker.js', {
+          enabled: environment.production,
+          // Register the ServiceWorker as soon as the app is stable
+          // or after 30 seconds (whichever comes first).
+          registrationStrategy: 'registerWhenStable:30000'
+        }), 
        
         
 
